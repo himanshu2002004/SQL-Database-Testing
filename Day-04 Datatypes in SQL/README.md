@@ -137,29 +137,6 @@ Value:
 
 ```
 John
-
----
-# 3. Date and Time Data Types
-
-Used to store dates and time.
-
-| Data Type | Description |
-|-----------|-------------|
-| DATE | Stores only date |
-| TIME | Stores only time |
-| DATETIME | Stores date and time |
-| TIMESTAMP | Stores timestamp value |
-| YEAR | Stores year |
-
-Example:
-
-```sql
-CREATE TABLE Employee
-(
-    JoiningDate DATE,
-    LoginTime TIME,
-    CreatedAt DATETIME
-);
 ```
 
 ---
