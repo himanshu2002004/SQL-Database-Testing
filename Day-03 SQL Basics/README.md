@@ -201,7 +201,61 @@ Some commonly used SQL keywords are:
 
 ---
 
-# 💻 Sample Employee Table
+# Clause in SQL
+
+A **clause** is a part of an SQL statement that performs a specific task. Multiple clauses are combined to form a complete SQL query.
+
+Think of a clause as a **building block** of an SQL statement. Each clause has a specific purpose, such as selecting data, filtering records, grouping rows, or sorting results.
+
+### Example SQL Query
+
+```sql
+SELECT Name, Salary
+FROM Employee
+WHERE Department = 'IT'
+ORDER BY Salary DESC;
+```
+
+This query consists of four clauses:
+
+| Clause | Purpose |
+|---------|---------|
+| **SELECT** | Specifies the column(s) to retrieve from the table. |
+| **FROM** | Specifies the table from which the data will be retrieved. |
+| **WHERE** | Filters the rows based on a condition. |
+| **ORDER BY** | Sorts the result in ascending (`ASC`) or descending (`DESC`) order. |
+
+---
+
+# SQL Query Execution Order
+
+When writing a SQL query, we usually type the clauses in the following order:
+
+```sql
+SELECT column_name
+FROM table_name
+WHERE condition
+GROUP BY column_name
+HAVING condition
+ORDER BY column_name;
+```
+
+However, SQL does **not** execute the query in the same order. The database processes the clauses in the following logical execution order:
+
+| Execution Order | Clause | Purpose |
+|----------------:|--------|---------|
+| 1 | FROM | Identifies the table(s) from which data will be retrieved. |
+| 2 | WHERE | Filters rows based on the specified condition. |
+| 3 | GROUP BY | Groups rows that have the same values into summary rows. |
+| 4 | HAVING | Filters the grouped data based on aggregate conditions. |
+| 5 | SELECT | Chooses the columns or expressions to return in the result set. |
+| 6 | DISTINCT | Removes duplicate rows from the selected result (if used). |
+| 7 | ORDER BY | Sorts the final result set in ascending or descending order. |
+| 8 | LIMIT / TOP / FETCH | Restricts the number of rows returned (syntax depends on the database). |
+
+---
+
+#  Sample Employee Table
 
 | EmpID | Name | Department | Salary |
 |--------|------|------------|--------|
