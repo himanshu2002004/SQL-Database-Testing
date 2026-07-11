@@ -3,7 +3,7 @@ CREATE TABLE Product (
     ProductName VARCHAR(20),
     Category VARCHAR(20),
     Price DECIMAL(10,2),
-    Quantity INT,
+    Quantity INT UNSIGNED,
     ManufacturingDate DATE,
     ExpiryDate DATE
 );
