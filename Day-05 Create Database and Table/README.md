@@ -80,33 +80,6 @@ Employee table created successfully.
 
 ---
 
-# Column in a table 
-
-A column represents a specific attribute of the data.
-
-Example:
-
-| EmpID | EmpName | Salary |
-|-------|----------|---------|
-
-Each heading is a column.
-
----
-
-# 16. What is a Row?
-
-A row represents one complete record in a table.
-
-Example:
-
-| EmpID | EmpName | Salary |
-|-------|----------|---------|
-|101|Rahul|35000|
-
-This entire entry is one row.
-
----
-
 # Best practices while creating tables
 
 - Use meaningful table names.
