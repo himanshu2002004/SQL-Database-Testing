@@ -72,11 +72,8 @@ Numeric data types are used to store numbers.
 Example:
 
 ```sql
-CREATE TABLE Employee
-(
-    EmployeeID INT,
-    Salary DECIMAL(10,2),
-    Bonus FLOAT
+Salary DECIMAL(10,2),
+Bonus FLOAT
 );
 ```
 
@@ -97,12 +94,9 @@ Used to store text values.
 Example:
 
 ```sql
-CREATE TABLE Employee
-(
-    Name VARCHAR(100),
-    Department CHAR(20),
-    Address TEXT
-);
+Name VARCHAR(100),
+Department CHAR(20),
+Address TEXT
 ```
 
 ---
@@ -148,10 +142,7 @@ Stores only TRUE or FALSE values.
 Example:
 
 ```sql
-CREATE TABLE Users
-(
-    IsActive BOOLEAN
-);
+IsActive BOOLEAN
 ```
 
 Possible values:
@@ -184,10 +175,7 @@ Used to store images, files, videos, or binary information.
 Example:
 
 ```sql
-CREATE TABLE Documents
-(
-    DocumentFile BLOB
-);
+DocumentFile BLOB
 ```
 
 ---
