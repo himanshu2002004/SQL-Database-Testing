@@ -74,7 +74,6 @@ Example:
 ```sql
 Salary DECIMAL(10,2),
 Bonus FLOAT
-);
 ```
 
 ---
