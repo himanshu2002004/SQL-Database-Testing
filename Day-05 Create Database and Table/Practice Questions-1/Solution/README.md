@@ -2,7 +2,7 @@ CREATE TABLE Customer(
   CustomerId VARCHAR(10),
   CustomerName VARCHAR(30),
   Email VARCHAR2(30),
-  PhoneNumber INT(10),
+  PhoneNumber VARCHAR(10),
   Address VARCHAR(50),
   RegistrationDate DATE
 );
