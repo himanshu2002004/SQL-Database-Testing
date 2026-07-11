@@ -229,4 +229,4 @@ CREATE TABLE Documents
 
 ### 5. Which data type stores TRUE or FALSE?
 
----
+--- 
