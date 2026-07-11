@@ -1,6 +1,6 @@
 # Day 04 - Create Database and Insert Data into Tables
 
-## 📌 Introduction
+## Introduction
 
 Before performing any SQL queries or database testing, we need a database that contains tables and data. Creating databases, designing tables, and inserting records are the first steps in SQL development and database testing.
 
