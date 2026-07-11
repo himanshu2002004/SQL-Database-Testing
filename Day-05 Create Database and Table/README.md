@@ -1,12 +1,4 @@
-# Day 04 - Create Database and Insert Data into Tables
-
-## Introduction
-
-Before performing any SQL queries or database testing, we need a database that contains tables and data. Creating databases, designing tables, and inserting records are the first steps in SQL development and database testing.
-
-In this chapter, we'll learn how to create a database, create tables, insert records, and verify the inserted data.
-
----
+# Day 05 - Create Database Tables
 
 # What is a Database?
 
@@ -88,11 +80,98 @@ Employee table created successfully.
 
 ---
 
-# Key Takeaways
+# Column in a table 
 
-- CREATE DATABASE creates a new database.
-- USE selects the active database.
-- CREATE TABLE creates tables.
-- INSERT INTO adds records.
-- SELECT verifies inserted data.
-- Database testing ensures data integrity and accuracy.
+A column represents a specific attribute of the data.
+
+Example:
+
+| EmpID | EmpName | Salary |
+|-------|----------|---------|
+
+Each heading is a column.
+
+---
+
+# 16. What is a Row?
+
+A row represents one complete record in a table.
+
+Example:
+
+| EmpID | EmpName | Salary |
+|-------|----------|---------|
+|101|Rahul|35000|
+
+This entire entry is one row.
+
+---
+
+# Best practices while creating tables
+
+- Use meaningful table names.
+- Define appropriate data types.
+- Add a Primary Key.
+- Use constraints where required.
+- Avoid duplicate column names.
+- Follow consistent naming conventions.
+- Keep the table design normalized when possible.
+
+---
+
+# Difference Between Database and Table
+
+| Database | Table |
+|----------|--------|
+| Collection of tables | Stores actual data |
+| Can contain multiple tables | Exists inside a database |
+| Created using `CREATE DATABASE` | Created using `CREATE TABLE` |
+
+---
+
+# Interview Questions
+
+
+# 1. What is a Database?
+
+---
+
+# 2. What is the SQL command to create a database?
+
+---
+
+# 3. Which command is used to select a database in SQL Server?
+
+---
+
+# 4. What is a Table?
+
+---
+
+# 5. Which SQL command is used to create a table?
+
+---
+
+# 6. What is the difference between a Database and a Table?
+
+---
+
+# 7. Can we create multiple tables inside one database?
+
+---
+
+# 8. What happens if you try to create a database with an existing name?
+
+---
+
+# 9. Can a table exist without a Primary Key?
+
+---
+
+# 10. Which SQL statement is executed first: CREATE DATABASE or CREATE TABLE?
+
+---
+
+# 20. What are the best practices while creating tables?
+
+---
