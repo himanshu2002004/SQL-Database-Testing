@@ -77,8 +77,8 @@ Bonus FLOAT
 ```
 
 ```sql
-Phone INT,  // we can use INT(10) but in modern MySQL, it is deprecated, so we simply use INT
-Quantity INT UNSIGNED  // INT stores whole numbers and UNSIGNED prevents negative values, which makes sense because product quantity cannot be negative.
+Phone INT,  `<!-- we can use INT(10) but in modern MySQL, it is deprecated, so we simply use INT -->`
+Quantity INT UNSIGNED `<!-- INT stores whole numbers and UNSIGNED prevents negative values, which makes sense because product quantity cannot be negative. -->` 
 ```
 
 ---
