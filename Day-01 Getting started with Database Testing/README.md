@@ -56,16 +56,16 @@ A user registers on an e-commerce website.
   - Password
   - Phone Number
 
-↓
+
 Application validates the details.
 
-↓
+
 Application sends the data to the database.
 
-↓
+
 Database stores the information.
 
-↓
+
 Tester verifies whether the entered information is correctly stored inside the Users table.
 
 ---
