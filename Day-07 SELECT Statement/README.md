@@ -129,30 +129,6 @@ Output
 |Developer|
 
 ---
-# TOP
-
-The **TOP** clause returns only the specified number of records.
-
-> Used mainly in **SQL Server**.
-
-### Syntax
-
-```sql
-SELECT TOP 3 *
-FROM Employees;
-```
-
-### Output
-
-Returns the first three rows.
-
-| EmployeeID | FirstName | Department |
-|------------|-----------|------------|
-|101|Rahul|HR|
-|102|Aisha|Testing|
-|103|John|Developer|
-
----
 
 # LIMIT
 
