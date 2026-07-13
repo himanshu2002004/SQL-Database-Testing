@@ -101,15 +101,6 @@ VALUES
 
 ---
 
-# Verify Inserted Data
-
-```sql
-SELECT *
-FROM Employees;
-```
-
----
-
 # Insert NULL Values
 
 ```sql
