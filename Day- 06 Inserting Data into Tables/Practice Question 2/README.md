@@ -1,1 +1,1 @@
-### Insert only selected columns into the Employee table.
+### Insert data into selected columns in the Employee table.
