@@ -1,4 +1,4 @@
-# Day 07 – Aggregate Functions in SQL
+# Day 10– Aggregate Functions in SQL
 
 Aggregate Functions are built-in SQL functions used to perform calculations on multiple rows of data and return a **single summarized result**.
 
