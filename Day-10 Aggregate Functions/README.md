@@ -262,31 +262,6 @@ AVG(Salary)
 FROM Employees
 GROUP BY Department;
 ```
-
----
-
-# 🔹 HAVING
-
-The **HAVING** clause filters grouped records.
-
-Unlike **WHERE**, which filters individual rows before grouping, **HAVING** filters groups after aggregation.
-
-## Syntax
-
-```sql
-SELECT Department,
-COUNT(*)
-FROM Employees
-GROUP BY Department
-HAVING COUNT(*) > 1;
-```
-
-### Output
-
-| Department | COUNT |
-|------------|-------|
-|QA|2|
-
 ---
 
 ## Departments with Average Salary Greater than 40000
@@ -398,18 +373,9 @@ This causes an error because Department is not grouped.
 
 ---
 
-### Q5. What is HAVING?
-
----
-
-### Q6. Difference between WHERE and HAVING?
 
 ---
 
 ### Q7. Can Aggregate Functions be used without GROUP BY?
-
----
-
-|42000|
 
 ---
