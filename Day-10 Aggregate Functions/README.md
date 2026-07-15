@@ -22,7 +22,6 @@ For example:
 - Learn MIN()
 - Learn MAX()
 - Understand GROUP BY
-- Learn HAVING clause
 - Apply Aggregate Functions in Database Testing
 
 ---
