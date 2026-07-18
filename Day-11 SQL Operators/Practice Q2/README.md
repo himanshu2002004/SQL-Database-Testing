@@ -1,1 +1,1 @@
-# Display employees from the QA department.
+# Display employees from the IT department.
