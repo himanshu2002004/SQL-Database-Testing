@@ -1,6 +1,4 @@
-## 
-
-Display all employees who satisfy **any one** of the following conditions:
+ ## Display all employees who satisfy **any one** of the following conditions:
 
 - Salary is greater than **₹50,000**
 - Department is **Developer**
