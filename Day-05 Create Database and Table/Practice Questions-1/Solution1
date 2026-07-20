@@ -1,3 +1,5 @@
+CREATE DATABASE CustomerSystem;
+USE CustomerSystem;
 CREATE TABLE Customer(
   CustomerId VARCHAR(10),
   CustomerName VARCHAR(30),
